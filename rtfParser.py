@@ -59,8 +59,8 @@ if __name__ == '__main__':
     # Create a folder, if folder doesn't exist
     os.makedirs(output_path, exist_ok=True)
     
-    # Konverze RTF na čistý text
+    # RTF to docx conversion
     convert_rtf_to_text(rtf_path, output_path)
     
-    # RTF to Docx conversion
+    # RTF to docx conversion
     convert_rtf_to_docx(rtf_path, output_path)
